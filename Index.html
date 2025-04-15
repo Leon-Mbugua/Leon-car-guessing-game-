@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Car Guessing Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game-container">
+    <h1>Guess the Car Brand!</h1>
+    <p id="hint">Click "Start Game" to begin</p>
+    <input type="text" id="guess" placeholder="Your guess..." />
+    <button onclick="checkGuess()">Submit Guess</button>
+    <p id="feedback"></p>
+    <button onclick="startGame()">Start Game</button>
+  </div>
+
+  <script src="cars.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
